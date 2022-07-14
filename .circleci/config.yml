@@ -5,6 +5,7 @@ commands:
     parameters:
       id:
         type: string
+        default: "10"
     steps:
       - run: echo << paramters.id >>
 
