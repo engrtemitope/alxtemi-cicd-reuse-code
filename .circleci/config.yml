@@ -7,7 +7,7 @@ commands:
         type: string
         default: "10"
     steps:
-      - run: echo << paramters.id >>
+      - run: echo << parameters.id >>
 
 jobs:
   my_job:
